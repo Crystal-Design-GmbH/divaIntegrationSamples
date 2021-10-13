@@ -1,0 +1,11 @@
+.container {
+  inset: 0;
+  position: absolute;
+}
+
+.main {
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+
