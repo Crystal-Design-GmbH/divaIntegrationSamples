@@ -10,7 +10,7 @@ const INIT_PARAMS = {}
 const CONFIG_URL = 'your-config-url'
 const IDENTIFIER = 'your-identifier'
 
-export default function DivaWebPlanner() {
+export default function DivaWebPlanner() { 
     return <Diva
     organizationId={ORGANIZATION_ID}
     channelId={CHANNEL_ID}

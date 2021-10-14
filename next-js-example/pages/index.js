@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import dynamic from 'next/dynamic'
 
 const DivaWebPlanner = dynamic(
-  () => import('./DivaWebplanner'),
+  () => import('../components/DivaWebplanner'),
   { ssr: false }
 )
 
