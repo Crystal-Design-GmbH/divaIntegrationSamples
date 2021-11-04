@@ -24,6 +24,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: yarn install
       run: yarn
+      working-directory: ${{env.working-directory}}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
