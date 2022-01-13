@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@crystaldesign/diva-core": "7.7.1",
-    "@crystaldesign/diva-web-planner-react": "7.7.1",
+    "@crystaldesign/diva-core": "7.8.0-rc.2",
+    "@crystaldesign/diva-web-planner-react": "7.8.0-rc.2",
     "jquery": "^3.6.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
