@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@crystaldesign/diva-core": "7.9.1",
-    "@crystaldesign/diva-web-planner-react": "7.9.1",
+    "@crystaldesign/diva-core": "7.9.2",
+    "@crystaldesign/diva-web-planner-react": "7.9.2",
     "jquery": "^3.6.0",
     "next": "11.1.3",
     "react": "17.0.2",
