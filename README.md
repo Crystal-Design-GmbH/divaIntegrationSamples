@@ -12,4 +12,4 @@ A [react](https://reactjs.org/) example
 A [next.js](https://nextjs.org/) example
 
 ## js via CDN example
-To Do
+A Plain JS example -> [Readme](/plain-js-example/README.md)
