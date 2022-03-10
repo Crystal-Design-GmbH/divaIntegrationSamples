@@ -27,20 +27,20 @@ DIVA JS Files vary by end component to be used in it
   <div id="framework"></div>
   <script crossorigin src="https://cdn.jsdelivr.net/npm/react@17/umd/react.production.min.js"></script>
   <script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@17/umd/react-dom.production.min.js"></script>
-  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/diva-core@7.13.0-rc.1/build/umd/diva-core.umd.min.js"></script>
-  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/content-box@7.13.0-rc.1/build/umd/content-box.umd.min.js"></script>
+  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/diva-core@7.13.0-rc.5/build/umd/diva-core.umd.min.js"></script>
+  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/content-box@7.13.0-rc.5/build/umd/content-box.umd.min.js"></script>
 </body>
 ```
 
 ## Javascript
 Env vars will be provided by Crystal Design, implementation may vary based on the current component.
 
-```js
+```js script
 <body>
       <script>
          //displays diva version in title
 		 document.getElementById('title').append(window.DIVA_VERSION);
-		 //window.DIVA_LOGGER = 0; 
+	     //window.DIVA_LOGGER = 0; 
          const diva = document.createElement("diva-framework");
          diva.organizationId = "your-organization-id";
          diva.channelId = 'your-channel-id';
