@@ -39,20 +39,24 @@ Env vars will be provided by Crystal Design, implementation may vary based on th
 <body>
       <script>
          //displays diva version in title
-		 document.getElementById('title').append(window.DIVA_VERSION);
-	     //window.DIVA_LOGGER = 0; 
+         document.getElementById('title').append(window.DIVA_VERSION);
+         //Enables Logging for DIVA
+         //window.DIVA_LOGGER = 0; 
+         //Event listener for onAddToBasket event
+         const onEvent = (e) => {
+            if (e.type == 'onAddToBasket') {
+               console.log('onAddToBasket', e.data);
+            }
+		     };
          const diva = document.createElement("diva-framework");
          diva.organizationId = "your-organization-id";
          diva.channelId = 'your-channel-id';
          diva.identifier = "provided-by-crystal-design";
          diva.language = "de";
+         diva.onEvent= onEvent;
          diva.currentComponent = {type: 'DIVA_WEBPLANNER', parameters: {divaNr: "DIVA-123456"},};
          const parent = document.getElementById('framework');
          parent.appendChild(diva);
-         diva.addEventListener("onAddToBasket", (data) => {
-           console.log("Added new product with Diva Nr " + data.detail.DivaNr);
-           console.log(data);
-         });
       </script>
 </body>
 ```

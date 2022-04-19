@@ -5,7 +5,7 @@
       <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
       <meta http-equiv="Pragma" content="no-cache" />
       <meta http-equiv="Expires" content="0" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin>
       <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
       <link rel="preconnect" href="https://api.diva-portal.com/" crossorigin>
@@ -48,20 +48,24 @@
       <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/diva-web-planner-react@7.15.0/build/umd/diva-web-planner-react.umd.min.js"></script>
       <script>
          //displays diva version in title
-		 document.getElementById('title').append(window.DIVA_VERSION);
-		 //window.DIVA_LOGGER = 0; 
+         document.getElementById('title').append(window.DIVA_VERSION);
+         //Enables Logging for DIVA
+         //window.DIVA_LOGGER = 0; 
+         //Event listener for onAddToBasket event
+         const onEvent = (e) => {
+            if (e.type == 'onAddToBasket') {
+               console.log('onAddToBasket', e.data);
+            }
+		   };
          const diva = document.createElement("diva-framework");
          diva.organizationId = "your-organization-id";
          diva.channelId = 'your-channel-id';
          diva.identifier = "provided-by-crystal-design";
          diva.language = "de";
+         diva.onEvent= onEvent;
          diva.currentComponent = {type: 'DIVA_WEBPLANNER', parameters: {divaNr: "DIVA-123456"},};
          const parent = document.getElementById('framework');
          parent.appendChild(diva);
-         diva.addEventListener("onAddToBasket", (data) => {
-           console.log("Added new product with Diva Nr " + data.detail.DivaNr);
-           console.log(data);
-         });
       </script>
    </body>
 </html>
