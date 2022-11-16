@@ -82,10 +82,10 @@
     rc-slider "10.0.0"
     swiper "^8.3.2"
 
-"@crystaldesign/diva-core@7.29.0-rc.2":
-  version "7.29.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-core/-/diva-core-7.29.0-rc.2.tgz#7e0cfb0e7791d2f1aa3a60c2e7966d4cf48ada80"
-  integrity sha512-yfApp0QvThGCzJAPR4wgzAv0atASVhIMxF0pTCg3rPV6oKmRpnMnARGd7wHJo82at92p4jILxYkwCGvFKAnPTg==
+"@crystaldesign/diva-core@7.29.0-rc.3":
+  version "7.29.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-core/-/diva-core-7.29.0-rc.3.tgz#d572229420eb4aa0cbfeb3793fa25a45d1da8705"
+  integrity sha512-xGypwDuGMYUvHDSiUaTDJ++1jKL0/0t3FMyV8CN+vXG4vH4DXzztVVX7t91t0h0c5pFdQj405KXHWaLuZuVy6A==
   dependencies:
     "@crystaldesign/basket-model" "7.28.8"
     "@crystaldesign/content-box" "7.28.8"
@@ -111,10 +111,10 @@
     react-router-dom "^6.0.0"
     react-swipeable "^6.1.0"
 
-"@crystaldesign/diva-products@7.29.0-rc.2":
-  version "7.29.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-products/-/diva-products-7.29.0-rc.2.tgz#849a14e58506aacbb06d77aa7d5566ca0fd80c91"
-  integrity sha512-IJKZwTHB4gzMl+Hk0LdwUdRRa0YJ2TI5fSloun719cr4tq4THsoYvbmmT6AjdU9p4hYAn3NJRQ0oCRHYqg877w==
+"@crystaldesign/diva-products@7.29.0-rc.3":
+  version "7.29.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-products/-/diva-products-7.29.0-rc.3.tgz#185c10c74b9754939f1f79d920611e4a468bc46e"
+  integrity sha512-h/vsowP88ewbctO8kxoM4vYej/QTjTs89NdCb8N9uCF3x8bh7pTJPLwLu1SsTjAo8XDoZeboUwNBUB3bSEQnow==
   dependencies:
     lodash.debounce "^4.0.8"
 
@@ -129,12 +129,12 @@
     number-currency-format "^1.0.10"
     uuid "^3.4.0"
 
-"@crystaldesign/diva-web-planner-react@7.29.0-rc.2":
-  version "7.29.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-web-planner-react/-/diva-web-planner-react-7.29.0-rc.2.tgz#001e00deed2b1a03e65e7582452e07620a24c146"
-  integrity sha512-4hEttKEijceMPtjzmswFU1FY6/9h4a9nwa//w47K/SeAKTGNCuODKuYhqJ2U0kkny/VTvAmztzlUAAchU44G0Q==
+"@crystaldesign/diva-web-planner-react@7.29.0-rc.3":
+  version "7.29.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-web-planner-react/-/diva-web-planner-react-7.29.0-rc.3.tgz#b36fbc778c0a0c502f15d8f2e44dc0f702337858"
+  integrity sha512-owbmZ6h845W06jgHyTtqkYpF7OgJ+0JStdMnkkDsCUAHVPzfis5jTAk+yI68uLJ4k3p7V2jTwplOCZAApdDvzA==
   dependencies:
-    "@crystaldesign/web-planner-logic" "7.29.0-rc.2"
+    "@crystaldesign/web-planner-logic" "7.29.0-rc.3"
     fabric "4.6.0-browser"
     react-3d-cube-interaction "^0.6.1"
     react-beautiful-dnd "^13.0.0"
@@ -149,8 +149,8 @@
     sift "^15.0.0"
     three "^0.116.1"
   optionalDependencies:
-    "@crystaldesign/diva-products" "7.29.0-rc.2"
-    "@crystaldesign/real-time-viewer" "7.29.0-rc.2"
+    "@crystaldesign/diva-products" "7.29.0-rc.3"
+    "@crystaldesign/real-time-viewer" "7.29.0-rc.3"
 
 "@crystaldesign/forms@7.28.8":
   version "7.28.8"
@@ -200,10 +200,10 @@
   dependencies:
     classnames "^2.2.6"
 
-"@crystaldesign/real-time-viewer@7.29.0-rc.2":
-  version "7.29.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/real-time-viewer/-/real-time-viewer-7.29.0-rc.2.tgz#b9e26d85efcadf10ff4db0683a8b61c3a679c98c"
-  integrity sha512-PvIEinK/6d9Rs4/fIbA5QIPZduZ1rmm/ZmEmwtqovZV2ewBalHAK0UaP4alobG0hiaSqgxjCIDdA47Osz+e/AQ==
+"@crystaldesign/real-time-viewer@7.29.0-rc.3":
+  version "7.29.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/real-time-viewer/-/real-time-viewer-7.29.0-rc.3.tgz#f0e70080224906039c34726ffd7876c737090467"
+  integrity sha512-qU1TO5QyDl9NW4fN4BaxPyBBS9lkRW7QQpej5n6WhHPycmIS8dXkvzW27X9ugRg6vhVScWtE5n0+kG/J7RoDSQ==
   dependencies:
     "@babylonjs/core" "^5.22.1"
     "@babylonjs/gui" "^5.22.1"
@@ -221,10 +221,10 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@crystaldesign/web-planner-logic@7.29.0-rc.2":
-  version "7.29.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/web-planner-logic/-/web-planner-logic-7.29.0-rc.2.tgz#9c17072283215090c2f5434380248578bd3416f9"
-  integrity sha512-flollbpjIXcukdyTEbvYxBsmwAkHSWbqBBWFYz0lBRLXkzoJYvJCybTvl9zbRNqpw15bBhXhQFXHGilNDXH1Lw==
+"@crystaldesign/web-planner-logic@7.29.0-rc.3":
+  version "7.29.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/web-planner-logic/-/web-planner-logic-7.29.0-rc.3.tgz#ea19d94b248d78f4d20ec3f741b4866f7379420d"
+  integrity sha512-CtK2S9Cirh/JCVvPqh1IwQkgiv6uOZtFpW19WV6XZthdkWLHIoHNzXWBhdOPnYoFVbh7hV/LQUd/u+SpZU0FeA==
   dependencies:
     "@microsoft/signalr" "^3.1.3"
     "@microsoft/signalr-protocol-msgpack" "^3.1.3"
