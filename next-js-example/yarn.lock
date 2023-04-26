@@ -31,17 +31,17 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@crystaldesign/basket-model@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/basket-model/-/basket-model-23.5.0-rc.6.tgz#fec64be2b05cda7642d49b4141ef4303e0f72b13"
-  integrity sha512-V/XHdn8pZtvV6JScPcyrp4kBHejV3b1KCU8D0CAYCqtYOBXQzG9geGaetcQ8GPK6icA9XN17N7kcOfaDABSEug==
+"@crystaldesign/basket-model@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/basket-model/-/basket-model-23.5.0.tgz#c45837937a89a126ef78619c7209d341d34d2d1a"
+  integrity sha512-AoXnEHQNS1MdLgKJD4HMmETMhcrEg8cqkDdNc1G5SIla18T7kmuC4NfF6pdL8AfEbiHI5+PMR8tuC66URcuEBw==
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@crystaldesign/content-box@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/content-box/-/content-box-23.5.0-rc.6.tgz#5861a7ea4eabf789140036191423351c107d3b4e"
-  integrity sha512-8kMfl5o56RGZKsYARqxWA9KuAT/ntf5BDZ3r1CziJN7R56oXRECWYhcerypuu5ksggSNaQEHKbRg1iySsp1cfw==
+"@crystaldesign/content-box@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/content-box/-/content-box-23.5.0.tgz#fd865c0216fc8bd82693751bea2b13f642eb4ad7"
+  integrity sha512-IX/ItW77CNC93mEIxwI5ZA8E9/zryq1vVwjTPqZsWpKzM0KuJfuO8/EoLqtIwluA2lp/yoSRsjtJ6jKxlUauyA==
   dependencies:
     "@google/model-viewer" "^1.12.1"
     rc-slider "10.0.0"
@@ -50,18 +50,18 @@
     react-qr-code "^2.0.11"
     swiper "^8.3.2"
 
-"@crystaldesign/diva-core@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-core/-/diva-core-23.5.0-rc.6.tgz#f3142339689cef3adbf3cfd564014ce9a2bb7e14"
-  integrity sha512-3bG9raxZQqRB7bixad2qGz9GvyLJ/Ts1e5vQAAttQyTC30yH7627hsu8D1AQe4VpyAdgRbHsr6NPhFpmBH+dmg==
+"@crystaldesign/diva-core@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-core/-/diva-core-23.5.0.tgz#abf35dec5b828870a6e267e2743d37b3b84b6c17"
+  integrity sha512-FZusb/FQ3AMi8l1GkNIeqRkH2Uyl04Cv9P+5LHSekkh7VeWN6WFC7+jjdthNOGVLmzO4/70QfODNU9oYEsmCWw==
   dependencies:
-    "@crystaldesign/basket-model" "23.5.0-rc.6"
-    "@crystaldesign/content-box" "23.5.0-rc.6"
-    "@crystaldesign/diva-utils" "23.5.0-rc.6"
-    "@crystaldesign/forms" "23.5.0-rc.6"
-    "@crystaldesign/grid" "23.5.0-rc.6"
-    "@crystaldesign/media-upload" "23.5.0-rc.6"
-    "@crystaldesign/product-handler" "23.5.0-rc.6"
+    "@crystaldesign/basket-model" "23.5.0"
+    "@crystaldesign/content-box" "23.5.0"
+    "@crystaldesign/diva-utils" "23.5.0"
+    "@crystaldesign/forms" "23.5.0"
+    "@crystaldesign/grid" "23.5.0"
+    "@crystaldesign/media-upload" "23.5.0"
+    "@crystaldesign/product-handler" "23.5.0"
     "@elastic/apm-rum" "^5.9.1"
     "@elastic/apm-rum-react" "^1.2.6"
     "@material-ui/core" "^4.11.4"
@@ -78,10 +78,10 @@
     react-router-dom "^6.0.0"
     react-swipeable "^6.1.0"
 
-"@crystaldesign/diva-utils@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-utils/-/diva-utils-23.5.0-rc.6.tgz#775d34d696e20ea480bbece9883ac364e8e775ac"
-  integrity sha512-vRmQlRs65bYOmTUGsgfWqLuGb1wmXHh0hR/itq8WeAW5+DJ/nY+xMoHdLY25PsPangc+NWAZMB6rkkv3Af6n6A==
+"@crystaldesign/diva-utils@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-utils/-/diva-utils-23.5.0.tgz#0ff04eeeacbe06bc006cd6f51bcf726a371462e5"
+  integrity sha512-Pqui5Mhyvos1PwLI+BYVMe/7bVcZwAOUp7tThHWCBfD9wPhZbD7JdN0U7KrERNX/QyD+HpZoRKCxT93gD3ucMg==
   dependencies:
     jsep "^1.2.0"
     md5.js "^1.3.5"
@@ -89,12 +89,12 @@
     number-currency-format "^1.0.10"
     uuid "^3.4.0"
 
-"@crystaldesign/diva-web-planner-react@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-web-planner-react/-/diva-web-planner-react-23.5.0-rc.6.tgz#1c164cf49bb10c4a961e42fcc239d0d0f61c8b8f"
-  integrity sha512-GlX5BgRevAmrOrKrYN4RUloxg/xmX4TxJSYU7sXst8xfSH/IE6IuACP36v6LSC7W2XdquK3BFmA6oabs3BHADg==
+"@crystaldesign/diva-web-planner-react@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/diva-web-planner-react/-/diva-web-planner-react-23.5.0.tgz#0ac44e5aa76b7a6b2a642246aba65242d07674fa"
+  integrity sha512-oiwIgm19W/5yJb/2KPBhl4EmFA5Ate4ojU/wRISWTT8onZtiFtQuQ+Hdf2nej8cFgT5fJXpeIL6rU+cIC0ZEaQ==
   dependencies:
-    "@crystaldesign/web-planner-logic" "23.5.0-rc.6"
+    "@crystaldesign/web-planner-logic" "23.5.0"
     "@react-google-maps/api" "2.7.0"
     fabric "4.6.0-browser"
     react-3d-cube-interaction "^0.6.1"
@@ -110,22 +110,22 @@
     sift "^15.0.0"
     three "^0.116.1"
 
-"@crystaldesign/forms@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/forms/-/forms-23.5.0-rc.6.tgz#93632522f994b578aecae6968015636727d99a3d"
-  integrity sha512-q8hu6SFhimYHBOYeYVR4YJXMvy8GSYEwQK6aOCVzNOc4CvpEcNYJb9n8lpw03HxVituXstVlwrvVOAxisoQHsg==
+"@crystaldesign/forms@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/forms/-/forms-23.5.0.tgz#864862ce6b8878fd258c1340b851651de2b16216"
+  integrity sha512-K7GFK6cyegEnmNYMUWWBEXUglK7kH1j+UEy3mRUGPtD0Yd2BwUxPKKEsZp0gc/BscExsCUnddhkoseYiqjYJRg==
   dependencies:
     "@jsonforms/core" "^2.5.0"
     "@jsonforms/material-renderers" "^2.5.0"
     "@jsonforms/react" "^2.5.0"
     "@jsonforms/vanilla-renderers" "^2.5.0"
 
-"@crystaldesign/grid@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/grid/-/grid-23.5.0-rc.6.tgz#f7371201c38efd9d2e172e6123c674ffdc0c9ffe"
-  integrity sha512-K+MrZJLB7es8iWsPmDaBrgYnTFjekul1/N6IQQHEZynQ+lYZLZCUBd4jHL0H+Hx+ONbpkuhxAgaQmMMpYWGhAw==
+"@crystaldesign/grid@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/grid/-/grid-23.5.0.tgz#6cb3074f8ec89e591ed62a0269e91dbd10092ae1"
+  integrity sha512-FQfPAbWyTYD9ayrjPky/xMk1QYNBj4w7H05BCOY+5prMF2pmEamMFdCGNPY91LTwjZI62U9i9sXpXveNRmj6Wg==
   dependencies:
-    "@crystaldesign/searchfield" "23.5.0-rc.6"
+    "@crystaldesign/searchfield" "23.5.0"
     "@date-io/core" "^1.3.13"
     "@date-io/date-fns" "^1.3.13"
     "@tinymce/tinymce-react" "^3.13.0"
@@ -143,32 +143,32 @@
     react-table "^7.5.0"
     regenerator-runtime "^0.13.7"
 
-"@crystaldesign/media-upload@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/media-upload/-/media-upload-23.5.0-rc.6.tgz#07edb75566991a682609709128e36a9cd272805d"
-  integrity sha512-eSwfY3HkzQs35b6tlNINEJvCOEHN9BFuCdptwYOMaoatmNysgNNQLBJsUtvGD96SPG2RN1g55sezg7PInINuMA==
+"@crystaldesign/media-upload@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/media-upload/-/media-upload-23.5.0.tgz#f6691a7e0a80c16b0a4bbf66e681c0f8f9fcd483"
+  integrity sha512-CDInnAcVP5bbL9OJqUqZZpPAa/D4h+1XBhPV78jq5yPiQV4+ZM+FiKHmLHrMoRQGAawikyJrdXR9RyEGOFQeZw==
   dependencies:
     material-ui-chip-input "^2.0.0-beta.2"
     material-ui-dropzone "^3.5.0"
 
-"@crystaldesign/product-handler@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/product-handler/-/product-handler-23.5.0-rc.6.tgz#5c8989d2705f116b450b98ae0023907ab1061382"
-  integrity sha512-Jnk1M42krn4mC/3+N9AUuP9qsXhBTlKxJDmOWs01zobM/cOGCATXx9txNMERP1b18+xfrK/BPTcGWq2kQX9cuA==
+"@crystaldesign/product-handler@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/product-handler/-/product-handler-23.5.0.tgz#5389613a374c04027835a85cb31dcfa6799a3ffc"
+  integrity sha512-69sqNr+WYyaAGCvUjh6EDFYi+OT7Y2ODEQqeR9qq2PyF4z2/r3s8u16Jaj5BzJcRXHOBQoYdMbzqHjLDMONt8w==
   dependencies:
     classnames "^2.2.6"
 
-"@crystaldesign/searchfield@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/searchfield/-/searchfield-23.5.0-rc.6.tgz#253261843602c5adebb9aeacaf3644c3a2e29d7b"
-  integrity sha512-4WqtCn0FWlpnER+PBxXp+e26qOFFYAo/e7NuTTEa961FaPFS1rDiP/S8MLx96MgQNjVIkG3G6zJhJh6iYvso8Q==
+"@crystaldesign/searchfield@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/searchfield/-/searchfield-23.5.0.tgz#112b5290175b4bba9b44d92a34f44036096ee6d3"
+  integrity sha512-pLeMYDczuCsHuqG9xNkpczAKEurK2Y+ZNR3b3NUd3WiX8yJK3a6qlgMQmV13+5rwc8NLiuma/RvMFT57lwm32w==
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@crystaldesign/web-planner-logic@23.5.0-rc.6":
-  version "23.5.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@crystaldesign/web-planner-logic/-/web-planner-logic-23.5.0-rc.6.tgz#258a642996f813a647daad713ea06bd276b479a7"
-  integrity sha512-NNJDaxUQl/VK0dBbyyh5NW66hTk6cNxE9xsbpTWx15AJvelY3mZu4aWnr+Kdc7VW4F7lxJOtCGvvJwwNGJfXMw==
+"@crystaldesign/web-planner-logic@23.5.0":
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/@crystaldesign/web-planner-logic/-/web-planner-logic-23.5.0.tgz#3954c44390e670cdc02de8b34930bd7059d31955"
+  integrity sha512-1buk7QYSG9MryVvWNLOHEnBVHLuC2kDcYpfFxrkl8VJ4pj6tdsq8SgM7eNjLWfZA/xoP7q1EUNCzNYVEWPdRVw==
   dependencies:
     "@microsoft/signalr" "^3.1.3"
     "@microsoft/signalr-protocol-msgpack" "^3.1.3"
