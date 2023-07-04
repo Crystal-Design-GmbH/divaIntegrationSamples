@@ -27,8 +27,8 @@ DIVA JS Files vary by end component to be used in it
   <div id="framework"></div>
   <script crossorigin src="https://cdn.jsdelivr.net/npm/react@17/umd/react.production.min.js"></script>
   <script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@17/umd/react-dom.production.min.js"></script>
-  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/diva-core@23.8.1/build/umd/diva-core.umd.min.js"></script>
-  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/content-box@23.8.1/build/umd/content-box.umd.min.js"></script>
+  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/diva-core@23.9.0-rc.1/build/umd/diva-core.umd.min.js"></script>
+  <script crossorigin src="https://cdn.jsdelivr.net/npm/@crystaldesign/content-box@23.9.0-rc.1/build/umd/content-box.umd.min.js"></script>
 </body>
 ```
 
