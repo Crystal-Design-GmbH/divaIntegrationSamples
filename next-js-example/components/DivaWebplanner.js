@@ -3,18 +3,16 @@ import WebPlanner from '@crystaldesign/diva-web-planner-react'
 
 //this parameters are mandatory and will be provided to you
 const ORGANIZATION_ID = 'your-organization-id'
-const CHANNEL_ID = 'your-channel-id'
 const INIT_PARAMS = {}
 
 //this parameters are optional, most of the time they are not needed, otherwise we will provide them to you
-const CONFIG_URL = 'your-config-url'
+const BASE_URL = 'your-base-url'
 const IDENTIFIER = 'your-identifier'
 
 export default function DivaWebPlanner() { 
     return <Diva
     organizationId={ORGANIZATION_ID}
-    channelId={CHANNEL_ID}
-    configUrl={CONFIG_URL}
+    defaultApiConfig = {{ baseUrl: BASE_URL }}
     identifier={IDENTIFIER}
     currentComponent={{
       type: 'DIVA_WEBPLANNER',
